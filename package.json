@@ -1,8 +1,30 @@
 {
   "dependencies": {
+    "express": "^4.21.1",
     "font-awesome": "^4.7.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.0.0"
+  },
+  "name": "amazon_advanced_clone",
+  "type": "module",
+  "description": "Amazon clone website using react, nodejs and mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AniketUdhane/Amazon_Advanced_Clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AniketUdhane/Amazon_Advanced_Clone/issues"
+  },
+  "homepage": "https://github.com/AniketUdhane/Amazon_Advanced_Clone#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
